@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const chatBox = document.getElementById('chat-box');
-    const userInput = document.getElementById('user-input');
-    const sendBtn = document.getElementById('send-btn');
+    const chatBox = document.getElementById('box');
+    const userInput = document.getElementById('input');
+    const sendBtn = document.getElementById('send');
     function appendMessage(sender, message) {
         const messageElement = document.createElement('div');
         messageElement.classList.add('message');
